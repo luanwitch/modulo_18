@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 18</title>
+    <link rel="stylesheet" href="dev/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu" class="menu">
+                <li><a href="#inicio" class="active">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Módulo 18</h1>
+            <p>Utilizando o Less no Grunt.</p>
+            <a href="#conteudo" class="button">Saiba Mais</a>
+        </section>
+        <section id="conteudo">
+            <h2>Nosso Conteúdo</h2>
+            <div class="carousel-container">
+                <button id="prevBtn" class="carousel-btn prev">◁</button>
+                <div class="cards">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2024/12/28/03/20/parrot-9295172_1280.jpg" alt="Imagem de um papagaio">
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2024/10/20/14/51/coffee-9135194_1280.jpg" alt="Imagem 2">
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2024/01/29/14/12/boy-8539958_1280.jpg" alt="Imagem 3">
+                    </div>
+                </div>
+                <button id="nextBtn" class="carousel-btn next">▷</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; - Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.youtube.com" target="_blank" class="social-icon youtube">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </footer>    
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
